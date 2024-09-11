@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="SoatPoliciesPaymentsApplyAPIInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/SoatPoliciesPaymentsApplyAPIInSequence.xml</file>
+    </artifact>
+    <artifact name="soatPoliciesAPI" groupId="com.axa.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/soatPoliciesAPI.xml</file>
+    </artifact>
+    <artifact name="soatPoliciesAPI_swagger" groupId="com.axa.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/soatPoliciesAPI_swagger.yaml</file>
+    </artifact>
+    <artifact name="soatPoliciesAPI_metadata" groupId="com.axa.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/soatPoliciesAPI_metadata.yaml</file>
+    </artifact>
+    <artifact name="SoatPoliciesRenewalReferenciaVoucherAPIInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/SoatPoliciesRenewalReferenciaVoucherAPIInSequence.xml</file>
+    </artifact>
+    <artifact name="SoatPoliciesRenewalReferenciaVoucherAPIEndPoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/SoatPoliciesRenewalReferenciaVoucherAPIEndPoint.xml</file>
+    </artifact>
+    <artifact name="SoatPoliciesPaymentsApplyAPIEndPoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/SoatPoliciesPaymentsApplyAPIEndPoint.xml</file>
+    </artifact>
+    <artifact name="SBCSOATPolicyDataEndPoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/SBCSOATPolicyDataEndPoint.xml</file>
+    </artifact>
+    <artifact name="ConsultServiceSOATEndPoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/ConsultServiceSOATEndPoint.xml</file>
+    </artifact>
+    <artifact name="SoatPoliciesFaultSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/SoatPoliciesFaultSequence.xml</file>
+    </artifact>
+    <artifact name="GetSoatSiseInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GetSoatSiseInSequence.xml</file>
+    </artifact>
+    <artifact name="GetSoatSiseOutSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GetSoatSiseOutSequence.xml</file>
+    </artifact>
+    <artifact name="GetSoatSiseFaultSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GetSoatSiseFaultSequence.xml</file>
+    </artifact>
+    <artifact name="GetDocumentsSOATPolicyInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GetDocumentsSOATPolicyInSequence.xml</file>
+    </artifact>
+    <artifact name="GetDocumentsSOATPolicyOutSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GetDocumentsSOATPolicyOutSequence.xml</file>
+    </artifact>
+    <artifact name="GetDocumentsSOATPolicyFaultSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GetDocumentsSOATPolicyFaultSequence.xml</file>
+    </artifact>
+    <artifact name="soatPolicyAPIV2ConsultarPolizaSOATporNumeroPolizaInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/soatPolicyAPIV2ConsultarPolizaSOATporNumeroPolizaInSequence.xml</file>
+    </artifact>
+    <artifact name="soatPolicyAPIV2ConsultarPolizaSOATporNumeroPolizaOutSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/soatPolicyAPIV2ConsultarPolizaSOATporNumeroPolizaOutSequence.xml</file>
+    </artifact>
+    <artifact name="soatPolicyAPIV2ConsultarPolizaSOATporNumeroPolizaFaultSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/soatPolicyAPIV2ConsultarPolizaSOATporNumeroPolizaFaultSequence.xml</file>
+    </artifact>
+    <artifact name="SBSSoatPoliciesAPIEndPoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/SBSSoatPoliciesAPIEndPoint.xml</file>
+    </artifact>
+    <artifact name="ConsultasSOAT" groupId="com.axa.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/ConsultasSOAT.xml</file>
+    </artifact>
+    <artifact name="ConsultasSOAT_proxy_metadata" groupId="com.axa.proxy-service.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ConsultasSOAT_proxy_metadata.yaml</file>
+    </artifact>
+    <artifact name="ConsultarPolizaSOATporNumeroPolizaInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ConsultarPolizaSOATporNumeroPolizaInSequence.xml</file>
+    </artifact>
+    <artifact name="ConsultarPolizaSOATporNumeroPolizaOutSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ConsultarPolizaSOATporNumeroPolizaOutSequence.xml</file>
+    </artifact>
+    <artifact name="ConsultarPolizaSOATporNumeroPolizaFaultSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ConsultarPolizaSOATporNumeroPolizaFaultSequence.xml</file>
+    </artifact>
+    <artifact name="SoatPoliciesAPIEndPoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/SoatPoliciesAPIEndPoint.xml</file>
+    </artifact>
+    <artifact name="soatPoliciesAPIv2ConsultarImpuestosGPSOATInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/soatPoliciesAPIv2ConsultarImpuestosGPSOATInSequence.xml</file>
+    </artifact>
+    <artifact name="soatPoliciesAPIv2ConsultarImpuestosGPSOATOutSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/soatPoliciesAPIv2ConsultarImpuestosGPSOATOutSequence.xml</file>
+    </artifact>
+    <artifact name="soatPoliciesAPIv2ConsultarImpuestosGPSOATFaultSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/soatPoliciesAPIv2ConsultarImpuestosGPSOATFaultSequence.xml</file>
+    </artifact>
+    <artifact name="GetNotifactionSISEInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GetNotifactionSISEInSequence.xml</file>
+    </artifact>
+    <artifact name="GetNotifactionSISEOutSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GetNotifactionSISEOutSequence.xml</file>
+    </artifact>
+    <artifact name="GetNotifactionSISEFaultSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GetNotifactionSISEFaultSequence.xml</file>
+    </artifact>
+    <artifact name="ConsultarEstadoNotificacionSOATInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ConsultarEstadoNotificacionSOATInSequence.xml</file>
+    </artifact>
+    <artifact name="ConsultarEstadoNotificacionSOATOutSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ConsultarEstadoNotificacionSOATOutSequence.xml</file>
+    </artifact>
+    <artifact name="ConsultarEstadoNotificacionSOATFaultSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ConsultarEstadoNotificacionSOATFaultSequence.xml</file>
+    </artifact>
+    <artifact name="ConsultasSOATV2" groupId="com.axa.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/ConsultasSOATV2.xml</file>
+    </artifact>
+    <artifact name="ConsultasSOATV2_proxy_metadata" groupId="com.axa.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/ConsultasSOATV2_proxy_metadata.yaml</file>
+    </artifact>
+    <artifact name="ConsultasSOATEndPoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/ConsultasSOATEndPoint.xml</file>
+    </artifact>
+</artifacts>
