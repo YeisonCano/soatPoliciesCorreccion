@@ -113,4 +113,16 @@
     <artifact name="ConsultasSOATEndPoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/endpoints/ConsultasSOATEndPoint.xml</file>
     </artifact>
+    <artifact name="GetValiditySOATPolicyEndPoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/GetValiditySOATPolicyEndPoint.xml</file>
+    </artifact>
+    <artifact name="GetValiditySOATPolicyFaultSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GetValiditySOATPolicyFaultSequence.xml</file>
+    </artifact>
+    <artifact name="GetValiditySOATPolicyInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GetValiditySOATPolicyInSequence.xml</file>
+    </artifact>
+    <artifact name="GetValiditySOATPolicyOutSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GetValiditySOATPolicyOutSequence.xml</file>
+    </artifact>
 </artifacts>
